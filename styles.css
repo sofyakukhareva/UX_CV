@@ -29,7 +29,7 @@ header{
   .title h2{
     margin-top: 8px;
   }
-  h1, h2, h3, a, p, h4, li{
+  h1, h2, h3, a, p, h4, li, .p2{
     font-family: Calibri;
     font-style: normal;
     line-height: normal;
@@ -78,7 +78,7 @@ header{
     font-size: 16px;
     font-weight: 400;
   }
-img{
+.contacts img{
     margin-right: 8px;
     width: 20px;
     height: 20px;
@@ -123,14 +123,14 @@ h4{
 }
 .project{
     display: flex;
-    margin-top: 24px;
+    margin-top: 10px;
 }
 .divider_flow .divider{
-    height: 100%;
+    margin: -1px auto;
 }
-.project img{
-    width: 16px;
-    height: 16px;
+.project img, .education img{
+    width: 12px;
+    height: 12px;
 }
 main{
     display: flex;
@@ -144,4 +144,24 @@ main{
 }
 .academy{
     display: flex;
+}
+.divider_flow{
+    margin-right: 8px;
+}
+.place img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.p2{
+    margin-top: 4px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+.edu_place p{
+margin-top: 8px;
+}
+.edu_place{
+    padding-bottom: 20px;
 }
